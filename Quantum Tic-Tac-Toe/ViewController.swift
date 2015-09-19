@@ -20,9 +20,12 @@ class ViewController: NSViewController {
     @IBOutlet weak var matrix7: buttonMatrix!
     @IBOutlet weak var matrix8: buttonMatrix!
     
+    var turnNum = 0;
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
     }
 
     override var representedObject: AnyObject? {
@@ -32,35 +35,34 @@ class ViewController: NSViewController {
     }
 
     @IBAction func buttonClicked(sender: buttonMatrix) {
-        var turnNum = 0;
-        
-        while (isThereAWinner() != true){
-            let selcell: NSButtonCell = sender.selectedCell() as! NSButtonCell;
-            if(turnNum % 2 == 0){
-                selcell.title = "O";
-            }else{
-                selcell.title = "X";
-            }
-            turnNum++;
+        let selcell: NSButtonCell = sender.selectedCell() as! NSButtonCell;
+        if(turnNum % 2 == 0){
+            selcell.title = "X";
+            selcell.enabled = false;
+        }else{
+            selcell.title = "O";
+            selcell.enabled = false;
         }
+        turnNum++;
     }
     
     func isThereAWinner() -> Bool{
-        if(matrix0.winner == matrix1.winner && matrix0.winner == matrix2){
+        
+        if(matrix0.winner == matrix1.winner && matrix0.winner == matrix2.winner && matrix0.winner != ""){
             return true;
-        }else if(matrix3.winner == matrix4.winner && matrix3.winner == matrix5.winner){
+        }else if(matrix3.winner == matrix4.winner && matrix3.winner == matrix5.winner && matrix3.winner != ""){
             return true;
-        }else if(matrix6.winner == matrix7.winner && matrix6.winner == matrix8.winner){
+        }else if(matrix6.winner == matrix7.winner && matrix6.winner == matrix8.winner && matrix6.winner != ""){
             return true;
-        }else if(matrix0.winner == matrix3.winner && matrix0.winner == matrix6.winner){
+        }else if(matrix0.winner == matrix3.winner && matrix0.winner == matrix6.winner && matrix0.winner != ""){
             return true;
-        }else if(matrix1.winner == matrix4.winner && matrix1.winner == matrix7.winner){
+        }else if(matrix1.winner == matrix4.winner && matrix1.winner == matrix7.winner && matrix1.winner != ""){
             return true;
-        }else if(matrix2.winner == matrix5.winner && matrix2.winner == matrix8.winner){
+        }else if(matrix2.winner == matrix5.winner && matrix2.winner == matrix8.winner && matrix2.winner != ""){
             return true;
-        }else if(matrix0.winner == matrix4.winner && matrix0.winner == matrix8.winner){
+        }else if(matrix0.winner == matrix4.winner && matrix0.winner == matrix8.winner && matrix0.winner != ""){
             return true;
-        }else if(matrix2.winner == matrix4.winner && matrix2.winner == matrix6.winner){
+        }else if(matrix2.winner == matrix4.winner && matrix2.winner == matrix6.winner && matrix2.winner != ""){
             return true;
         }
         return false;

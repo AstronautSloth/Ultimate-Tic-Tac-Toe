@@ -1191,6 +1191,14 @@
                     </view>
                     <connections>
                         <outlet property="matrix0" destination="6ON-20-YAy" id="PAh-EN-Kty"/>
+                        <outlet property="matrix1" destination="FFq-Zs-3st" id="FpT-ze-Abt"/>
+                        <outlet property="matrix2" destination="dcz-u8-eoA" id="NXk-gO-4Xw"/>
+                        <outlet property="matrix3" destination="Cs6-8h-ueV" id="D4N-0F-Wo4"/>
+                        <outlet property="matrix4" destination="u36-M0-MpB" id="MTD-OH-VKF"/>
+                        <outlet property="matrix5" destination="nUh-ok-c7U" id="3ek-1V-fbM"/>
+                        <outlet property="matrix6" destination="DGr-FD-UOP" id="a2K-tk-rhb"/>
+                        <outlet property="matrix7" destination="Gcn-QP-PyH" id="P2l-0E-LOb"/>
+                        <outlet property="matrix8" destination="yJ5-M4-1KQ" id="GOo-uW-Wcg"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
