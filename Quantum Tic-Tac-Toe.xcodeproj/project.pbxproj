@@ -13,6 +13,7 @@
 		DE68E8401BADBDB6008192C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE68E83E1BADBDB6008192C3 /* Main.storyboard */; };
 		DE68E84B1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E84A1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift */; };
 		DE68E8561BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E8551BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift */; };
+		DEA9B2651BADFAAE003C2EDF /* buttonMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA9B2641BADFAAE003C2EDF /* buttonMatrix.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DE68E8511BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum Tic-Tac-ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE68E8551BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		DE68E8571BADBDB6008192C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA9B2641BADFAAE003C2EDF /* buttonMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				DE68E83A1BADBDB5008192C3 /* ViewController.swift */,
 				DE68E83C1BADBDB6008192C3 /* Assets.xcassets */,
 				DE68E83E1BADBDB6008192C3 /* Main.storyboard */,
+				DEA9B2641BADFAAE003C2EDF /* buttonMatrix.swift */,
 				DE68E8411BADBDB6008192C3 /* Info.plist */,
 			);
 			path = "Quantum Tic-Tac-Toe";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE68E83B1BADBDB6008192C3 /* ViewController.swift in Sources */,
+				DEA9B2651BADFAAE003C2EDF /* buttonMatrix.swift in Sources */,
 				DE68E8391BADBDB5008192C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +478,7 @@
 				DE68E85C1BADBDB6008192C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE68E85D1BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				DE68E85F1BADBDB6008192C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE68E8601BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +496,7 @@
 				DE68E8621BADBDB6008192C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
