@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE68E8391BADBDB5008192C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E8381BADBDB5008192C3 /* AppDelegate.swift */; };
+		DE68E83B1BADBDB6008192C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E83A1BADBDB5008192C3 /* ViewController.swift */; };
+		DE68E83D1BADBDB6008192C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE68E83C1BADBDB6008192C3 /* Assets.xcassets */; };
+		DE68E8401BADBDB6008192C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE68E83E1BADBDB6008192C3 /* Main.storyboard */; };
+		DE68E84B1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E84A1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift */; };
+		DE68E8561BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68E8551BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE68E8471BADBDB6008192C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE68E82D1BADBDB5008192C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE68E8341BADBDB5008192C3;
+			remoteInfo = "Quantum Tic-Tac-Toe";
+		};
+		DE68E8521BADBDB6008192C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE68E82D1BADBDB5008192C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE68E8341BADBDB5008192C3;
+			remoteInfo = "Quantum Tic-Tac-Toe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE68E8351BADBDB5008192C3 /* Quantum Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quantum Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68E8381BADBDB5008192C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE68E83A1BADBDB5008192C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE68E83C1BADBDB6008192C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE68E83F1BADBDB6008192C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE68E8411BADBDB6008192C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68E8461BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum Tic-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68E84A1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		DE68E84C1BADBDB6008192C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68E8511BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quantum Tic-Tac-ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68E8551BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quantum_Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
+		DE68E8571BADBDB6008192C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE68E8321BADBDB5008192C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E8431BADBDB6008192C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E84E1BADBDB6008192C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE68E82C1BADBDB5008192C3 = {
+			isa = PBXGroup;
+			children = (
+				DE68E8371BADBDB5008192C3 /* Quantum Tic-Tac-Toe */,
+				DE68E8491BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests */,
+				DE68E8541BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests */,
+				DE68E8361BADBDB5008192C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE68E8361BADBDB5008192C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE68E8351BADBDB5008192C3 /* Quantum Tic-Tac-Toe.app */,
+				DE68E8461BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests.xctest */,
+				DE68E8511BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE68E8371BADBDB5008192C3 /* Quantum Tic-Tac-Toe */ = {
+			isa = PBXGroup;
+			children = (
+				DE68E8381BADBDB5008192C3 /* AppDelegate.swift */,
+				DE68E83A1BADBDB5008192C3 /* ViewController.swift */,
+				DE68E83C1BADBDB6008192C3 /* Assets.xcassets */,
+				DE68E83E1BADBDB6008192C3 /* Main.storyboard */,
+				DE68E8411BADBDB6008192C3 /* Info.plist */,
+			);
+			path = "Quantum Tic-Tac-Toe";
+			sourceTree = "<group>";
+		};
+		DE68E8491BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE68E84A1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift */,
+				DE68E84C1BADBDB6008192C3 /* Info.plist */,
+			);
+			path = "Quantum Tic-Tac-ToeTests";
+			sourceTree = "<group>";
+		};
+		DE68E8541BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE68E8551BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift */,
+				DE68E8571BADBDB6008192C3 /* Info.plist */,
+			);
+			path = "Quantum Tic-Tac-ToeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE68E8341BADBDB5008192C3 /* Quantum Tic-Tac-Toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68E85A1BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-Toe" */;
+			buildPhases = (
+				DE68E8311BADBDB5008192C3 /* Sources */,
+				DE68E8321BADBDB5008192C3 /* Frameworks */,
+				DE68E8331BADBDB5008192C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quantum Tic-Tac-Toe";
+			productName = "Quantum Tic-Tac-Toe";
+			productReference = DE68E8351BADBDB5008192C3 /* Quantum Tic-Tac-Toe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE68E8451BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68E85D1BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeTests" */;
+			buildPhases = (
+				DE68E8421BADBDB6008192C3 /* Sources */,
+				DE68E8431BADBDB6008192C3 /* Frameworks */,
+				DE68E8441BADBDB6008192C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE68E8481BADBDB6008192C3 /* PBXTargetDependency */,
+			);
+			name = "Quantum Tic-Tac-ToeTests";
+			productName = "Quantum Tic-Tac-ToeTests";
+			productReference = DE68E8461BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE68E8501BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68E8601BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeUITests" */;
+			buildPhases = (
+				DE68E84D1BADBDB6008192C3 /* Sources */,
+				DE68E84E1BADBDB6008192C3 /* Frameworks */,
+				DE68E84F1BADBDB6008192C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE68E8531BADBDB6008192C3 /* PBXTargetDependency */,
+			);
+			name = "Quantum Tic-Tac-ToeUITests";
+			productName = "Quantum Tic-Tac-ToeUITests";
+			productReference = DE68E8511BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE68E82D1BADBDB5008192C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Colin Thompson";
+				TargetAttributes = {
+					DE68E8341BADBDB5008192C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DE68E8451BADBDB6008192C3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DE68E8341BADBDB5008192C3;
+					};
+					DE68E8501BADBDB6008192C3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = DE68E8341BADBDB5008192C3;
+					};
+				};
+			};
+			buildConfigurationList = DE68E8301BADBDB5008192C3 /* Build configuration list for PBXProject "Quantum Tic-Tac-Toe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE68E82C1BADBDB5008192C3;
+			productRefGroup = DE68E8361BADBDB5008192C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE68E8341BADBDB5008192C3 /* Quantum Tic-Tac-Toe */,
+				DE68E8451BADBDB6008192C3 /* Quantum Tic-Tac-ToeTests */,
+				DE68E8501BADBDB6008192C3 /* Quantum Tic-Tac-ToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE68E8331BADBDB5008192C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68E83D1BADBDB6008192C3 /* Assets.xcassets in Resources */,
+				DE68E8401BADBDB6008192C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E8441BADBDB6008192C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E84F1BADBDB6008192C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE68E8311BADBDB5008192C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68E83B1BADBDB6008192C3 /* ViewController.swift in Sources */,
+				DE68E8391BADBDB5008192C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E8421BADBDB6008192C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68E84B1BADBDB6008192C3 /* Quantum_Tic_Tac_ToeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68E84D1BADBDB6008192C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68E8561BADBDB6008192C3 /* Quantum_Tic_Tac_ToeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE68E8481BADBDB6008192C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE68E8341BADBDB5008192C3 /* Quantum Tic-Tac-Toe */;
+			targetProxy = DE68E8471BADBDB6008192C3 /* PBXContainerItemProxy */;
+		};
+		DE68E8531BADBDB6008192C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE68E8341BADBDB5008192C3 /* Quantum Tic-Tac-Toe */;
+			targetProxy = DE68E8521BADBDB6008192C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE68E83E1BADBDB6008192C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE68E83F1BADBDB6008192C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE68E8581BADBDB6008192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE68E8591BADBDB6008192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE68E85B1BADBDB6008192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-Toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE68E85C1BADBDB6008192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-Toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE68E85E1BADBDB6008192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-ToeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum Tic-Tac-Toe.app/Contents/MacOS/Quantum Tic-Tac-Toe";
+			};
+			name = Debug;
+		};
+		DE68E85F1BADBDB6008192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-ToeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum Tic-Tac-Toe.app/Contents/MacOS/Quantum Tic-Tac-Toe";
+			};
+			name = Release;
+		};
+		DE68E8611BADBDB6008192C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-ToeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quantum Tic-Tac-Toe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE68E8621BADBDB6008192C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Quantum Tic-Tac-ToeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ColinThompson.Quantum-Tic-Tac-ToeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quantum Tic-Tac-Toe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE68E8301BADBDB5008192C3 /* Build configuration list for PBXProject "Quantum Tic-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68E8581BADBDB6008192C3 /* Debug */,
+				DE68E8591BADBDB6008192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68E85A1BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68E85B1BADBDB6008192C3 /* Debug */,
+				DE68E85C1BADBDB6008192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE68E85D1BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68E85E1BADBDB6008192C3 /* Debug */,
+				DE68E85F1BADBDB6008192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE68E8601BADBDB6008192C3 /* Build configuration list for PBXNativeTarget "Quantum Tic-Tac-ToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68E8611BADBDB6008192C3 /* Debug */,
+				DE68E8621BADBDB6008192C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE68E82D1BADBDB5008192C3 /* Project object */;
+}
