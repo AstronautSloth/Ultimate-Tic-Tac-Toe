@@ -23,6 +23,7 @@ class ViewController: NSViewController {
     var turnNum = 0;
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -44,6 +45,17 @@ class ViewController: NSViewController {
             selcell.enabled = false;
         }
         turnNum++;
+        
+        let index = selcell.tag;
+        if(sender.winner == ""){
+            sender.calculatewinner();
+        }
+        
+        for(var x = 0; x < 9; x++){
+            if(){
+                
+            }
+        }
     }
     
     func isThereAWinner() -> Bool{
